@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    --theme-color: #395fc7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--theme-color);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 90%;
+    padding: 4em 0;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius:  0.5em;
+    -webkit-border-radius:  0.5em;
+    -moz-border-radius:  0.5em;
+    -ms-border-radius:  0.5em;
+    -o-border-radius:  0.5em;
+}
+
+.card .img-container{
+    height: 11.25em;
+    width: 11.25em;
+    display: block;
+    margin: -8.75em auto 0 auto;
+    background-color: var(--theme-color);
+    box-shadow:  0 0 0 0.3em #ffffff, 0 0 0 0.5em white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.img-container img{
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.container button{
+    display: block;
+    font-size: 1.2em;
+    width: 90%;
+    margin: 2em auto 0 auto;
+    padding: 1.1em 0;
+    border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    color: #000341;
+    cursor: pointer;
+}
+
+.card h2{
+    margin-top: 1.8em;
+    font-weight: 600;
+    color: #000341;
+}
+
+.card h3, h4{
+    font-size: 1em;
+    letter-spacing: 0.02em;
+    margin-top: 0.5em;
+    font-weight: 300px;
+    color: #90919e;
+}
+
+.card i{
+    color: var(--theme-color);
+    margin-right: 0.3em;
+}
+
+.card h4 {
+    margin-top: 0.4em;
+}
